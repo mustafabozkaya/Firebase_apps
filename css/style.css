@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Open Sans', serif;
+    background-color: #F1F4F3;
+    
+}
+
+.container{
+    background: #fff;
+    box-shadow: 0 8.9098px 36.6557px rgb(67 67 67 / 6%);
+    border-radius: 15px;
+    height: 80vh;
+    margin-top: 10vh;
+}
+.app-info{
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    text-align: center;
+    border-radius: 15px;
+}
+.app-info-detail{
+    color: #ffffff;
+}
+.app-info-detail h3{
+    font-weight: 600;
+}
+
+.app-warning{
+    background: url('../img/background-gdsc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    text-align: center;
+    border-radius: 15px;
+}
+.app-warning-detail{
+    color: #000;
+}
+.app-warning-detail h3{
+    font-weight: 600;
+}
+.app-form{
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.app-form h2{
+    font-weight: bold;
+    color: #ea4335;
+}
+.app-form small{
+    color: #bbbbbb;
+}
+
+.app-btn{
+    text-decoration: none;
+    background: none;
+    border: 1px solid;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    display: inline-block;
+    min-width: 150px;
+    border-radius: 24px;
+    margin-top: 30px;
+    letter-spacing: 0.4px;
+    transition: all ease 0.4s;
+}
+.app-btn:hover{
+    color: #ffffff;
+    background: linear-gradient(to right, #ea4335, #bd1e26);
+    border:1px solid transparent;
+}
+.app-btn-fill{
+    background-color: #bd1e26;
+    background: linear-gradient(to right, #bd1e26, #ea4335);
+    color: #ffffff;   
+}
+
+form.form-group{
+    margin-top: 30px;
+}
+.form-group input{
+    background: #F5F8F7;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+    background-color: #F6F8F7;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #aaa;
+    justify-content: flex-end;
+    white-space: nowrap;
+    background-color: #F6F8F7;
+    border: 0px solid;
+    border-radius: .25rem;
+    min-width: 30px;
+}
+
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.todo-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+    margin: 5px;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.todo-box p{
+    margin-bottom: 0px!important;
+}
+
+.todo-box button {
+    color: red;
+    border: hidden;
+    outline: none !important;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* login styles */
+
+.login-box {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
